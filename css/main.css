@@ -1,10 +1,57 @@
-body {
+  body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  a.brand {
+    margin-left: 30px !important;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   main {
     flex: 1 0 auto;
+    text-align: center;
   }
-      
+
+  footer {
+    text-align: center;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 200px 0 300px;
+  }
+
+  .intro-wrapper h4 {
+    margin-left: 40px;
+  }
+
+  #family-picture {
+    max-width: 80%;
+    opacity: .75;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: .45s;
+  }
+
+  #family-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.5em;
+    position: relative;
+    left: 180px;
+    bottom: 80px;
+    color: white;
+  }
+  #family-header:hover {
+    cursor: pointer;
+  }
