@@ -18,6 +18,11 @@
     max-width: 100%;
   }
 
+  img#family-picture {
+    max-width: 100%;
+    border: 5px solid black;
+  }
+
   main {
     flex: 1 0 auto;
     text-align: center;
@@ -32,6 +37,7 @@
     flex-direction: row;
     align-items: center;
     padding: 150px 0 300px;
+    justify-content: center;
   }
 
   .intro-wrapper h4 {
@@ -62,4 +68,9 @@
 
   #top-down-arrow {
     transition: .25s;
+  }
+
+  #intro-text {
+    text-align: left;
+    margin-bottom: -40px;
   }

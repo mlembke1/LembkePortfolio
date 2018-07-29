@@ -34,20 +34,4 @@ $(document).ready(() => {
         }
     }
     });
-
-    // TYPE WRITER EFFECT
-    let i = 0;
-    let txt = 'Husband, Father, Software Engineer, and Navy Veteran.'; /* The text */
-    let speed = 50; /* The speed/duration of the effect in milliseconds */
-
-    const typeWriter = () => {
-        if (i < txt.length) {
-            document.getElementById("typewriter-text").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
-        setTimeout(() =>  $('#top-down-arrow').css('font-size', '2.2em'), 3000)
-    }
-
-    typeWriter()
 })
