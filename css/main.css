@@ -91,3 +91,24 @@
     display: inline-block;
     border-right: 3px solid right;
   }
+
+  #work {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    outline: none;
+  }
+
+  #ppd-picture, #study-picture {
+    max-width: 50%;
+  }
+
+  #write-picture {
+    min-width: 30%;
+  }
+  
+  #work-header {
+    margin-top: -70px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+  }
