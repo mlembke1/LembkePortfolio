@@ -2,8 +2,9 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+    overflow-x:hidden;
   }
 
   #family:focus, header:focus, footer#contact:focus {
@@ -16,11 +17,6 @@
 
   img {
     max-width: 100%;
-  }
-
-  img#family-picture {
-    max-width: 100%;
-    border: 5px solid black;
   }
 
   main {
@@ -44,12 +40,20 @@
     margin-left: 40px;
   }
 
-  #family-picture {
-    max-width: 80%;
+  #mitch-picture {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  #family-picture, #work-picture {
+    /* max-width: 80%; */
     opacity: .75;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     transition: .45s;
+    max-width: 100%;
+    border: 5px solid black;
+    outline: none;
   }
 
   #family-header {
@@ -58,9 +62,12 @@
     align-items: center;
     font-size: 2.5em;
     position: relative;
-    left: 180px;
-    bottom: 80px;
+    bottom: 210px;
     color: white;
+    border-right: 1px solid white;
+    justify-content: space-around;
+    background-color: black;
+    opacity: .5;
   }
   #family-header:hover {
     cursor: pointer;
@@ -73,4 +80,14 @@
   #intro-text {
     text-align: left;
     margin-bottom: -40px;
+  }
+
+  #family-text-container {
+    font-size: .7em;
+    max-width: 700px;
+  }
+
+  #family-text {
+    display: inline-block;
+    border-right: 3px solid right;
   }

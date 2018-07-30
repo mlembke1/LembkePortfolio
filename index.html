@@ -5,7 +5,7 @@
       <title>Mitch Lembke</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
       <link rel="stylesheet" href="./css/main.css">
-      <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200" rel="stylesheet">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
@@ -15,7 +15,7 @@
                         <div class="nav-wrapper">
                             <a href="#top" class="brand black-text">MITCH LEMBKE</a>
                             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li><a class="black-text" href="#family-header">FAMILY</a></li>
+                            <li><a class="black-text" href="#family-picture">FAMILY</a></li>
                             <li><a class="black-text" href="#work">WORK</a></li>
                             <li><a class="black-text" href="#contact">CONTACT</a></li>
                             </ul>
@@ -26,7 +26,7 @@
 
         <main class="main-wrapper">
             <div id="intro" class="intro-wrapper container">
-                <img src="./assets/mitch.png" alt="Picture of Mitch Lembke">
+                <img id="mitch-picture" src="./assets/mitch.png" alt="Picture of Mitch Lembke">
                 <h4 id="intro-text">
                     Mitch<br><hr>
                     Husband<br>
@@ -35,18 +35,30 @@
                     Navy Veteran
                      <br>
                      <hr>
-                     <a href="#family-header">
+                     <a href="#family-picture">
                         <i id="top-down-arrow" class="medium material-icons">keyboard_arrow_down</i>
                      </a>
                 </h4>
-            </div>
-            <div id="family-header"></div>
+            </div>            
             <div id="family" class="family-wrapper">
                 <img id="family-picture" src="./assets/family.jpg" alt="Photo of the Lembke Family.">
                 <div id="family-header">
-                    <span>FAMILY</span>
-                    <i class="material-icons">keyboard_arrow_right</i>
+                    <span id="family-text">FAMILY</span>                    
+                    <p id="family-text-container">
+                        "Therefore a man shall leave his father and his mother and hold fast to his wife, and they shall become one flesh."
+                        <br>
+                        Genesis 2:24
+                    </p>
+                    <div>
+                        <a href="#work-picture">
+                            <i class="medium material-icons">keyboard_arrow_down</i>
+                        </a>    
+                    </div>
                 </div>
+            </div>
+
+            <div id="work" class="work-wrapper">
+                    <img id="work-picture" src="./assets/work.jpg" alt="Photo of a typewriter.">
             </div>
         </main>
 
