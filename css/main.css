@@ -59,19 +59,12 @@
     transition: .25s;
   }
   
-  /* .nav-wrapper a, .nav-wrapper ul {
-    display: block;
-  }
-  
-  .nav-wrapper {
-    text-align: center !important;
-  } */
   
   @media(min-width: 1000px){
     #mitch-picture {
       margin-top: 70px;
     }
-    
+
     div.intro-text-container {
       margin-left: -100px !important;
     }
@@ -87,6 +80,11 @@
     .intro-wrapper {
       padding-top: 150px;
     }
+
+    div.social-container {
+      margin-top: -510px !important;
+      max-width: 30% !important;
+    }
   }
 
   #family-text-container {
@@ -100,15 +98,11 @@
   }
 
   #work {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    outline: none;
-    /* padding-bottom: 50px; */
+    outline: none; 
   }
 
   #ppd-picture, #study-picture {
-    max-width: 50%;
+    /* max-width: 50%; */
   }
 
   #write-picture {
@@ -168,10 +162,10 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    margin-top: -510px;
-    max-width: 30%;
+    margin-top: -170px;
+    max-width: 70%;
   }
 
-  a h5, a p {
+  a h5, a p, a hr {
     color: black;
   }
