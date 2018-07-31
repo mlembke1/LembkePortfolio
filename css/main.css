@@ -152,3 +152,7 @@
     margin: 200px auto 300px;
     max-width: 20%;
   }
+
+  a h5, a p {
+    color: black;
+  }
