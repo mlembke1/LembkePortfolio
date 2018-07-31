@@ -35,4 +35,6 @@ $(document).ready(() => {
     }
     });
     new ClipboardJS('.btn');
+
+    $(".dropdown-trigger").dropdown();
 })

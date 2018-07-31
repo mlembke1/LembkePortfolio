@@ -26,7 +26,7 @@
 
 
   .intro-wrapper {
-    padding: 50px 0 300px;
+    padding: 0px 0 300px;
   }
 
   #mitch-picture {
@@ -73,6 +73,10 @@
 
     #family {
       margin-left: 3%;
+    }
+
+    .intro-wrapper {
+      padding-top: 150px;
     }
   }
 
