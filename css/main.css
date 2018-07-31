@@ -149,8 +149,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 200px auto 300px;
-    max-width: 20%;
+    margin: auto;
+    margin-top: -510px;
+    max-width: 30%;
   }
 
   a h5, a p {
