@@ -29,24 +29,21 @@
     padding: 0px 0 300px;
   }
 
-  #mitch-picture {
-    margin-top: 70px;
-  }
-
+  
   .intro-wrapper div.row div {margin: auto;}
-
+  
   #family {
     margin-right: auto;
   }
-
+  
   #family div.card {
     margin: 10px;
   }
-
+  
   #family-pointer {
     margin: 0px 0 100px;
   }
-
+  
   #family-picture, #work-picture {
     /* max-width: 80%; */
     opacity: .75;
@@ -57,12 +54,24 @@
     border: 5px solid black;
     outline: none;
   }
-
+  
   .top-down-arrow {
     transition: .25s;
   }
-
+  
+  /* .nav-wrapper a, .nav-wrapper ul {
+    display: block;
+  }
+  
+  .nav-wrapper {
+    text-align: center !important;
+  } */
+  
   @media(min-width: 1000px){
+    #mitch-picture {
+      margin-top: 70px;
+    }
+    
     div.intro-text-container {
       margin-left: -100px !important;
     }
