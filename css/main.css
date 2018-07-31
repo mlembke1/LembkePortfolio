@@ -26,22 +26,17 @@
 
 
   .intro-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 150px 0 300px;
-    justify-content: center;
+    padding: 50px 0 300px;
   }
 
-  .intro-wrapper h4 {
-    margin-left: 40px;
+  #mitch-picture {
+    margin-top: 70px;
   }
+
+  .intro-wrapper div.row div {margin: auto;}
 
   #family {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* padding: 80px 0 40px; */
+    margin-right: auto;
   }
 
   #family div.card {
@@ -67,9 +62,18 @@
     transition: .25s;
   }
 
-  #intro-text {
-    text-align: left;
-    margin-bottom: -40px;
+  @media(min-width: 1000px){
+    div.intro-text-container {
+      margin-left: -100px !important;
+    }
+
+    .card {
+      max-width: 32%;
+    }
+
+    #family {
+      margin-left: 3%;
+    }
   }
 
   #family-text-container {
@@ -103,7 +107,8 @@
     outline: none;
   }
   .card {
-    max-width: 30%;
+    margin-left: 0 !important;
+    padding: 0 !important;
   }
 
   a.social {
