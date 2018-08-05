@@ -40,6 +40,7 @@
     margin: 10px;
   }
   
+  
   #family-pointer {
     margin: 0px 0 100px;
   }
@@ -54,6 +55,11 @@
     border: 5px solid black;
     outline: none;
   }
+
+  #md-pic,
+  #tallman-pic {
+    max-height: 400px !important;
+  }  
   
   .top-down-arrow {
     transition: .25s;
@@ -84,6 +90,14 @@
     div.social-container {
       margin-top: -510px !important;
       max-width: 30% !important;
+    }
+
+    #md-pic {
+      margin-top: 35px !important;
+    }  
+
+    #tallman-pic {
+      margin-top: 20px !important;
     }
   }
 
@@ -175,3 +189,7 @@
   a h5, a p, a hr {
     color: black;
   }
+
+  /* #family  {
+    max-height: 700px !important;
+  } */
