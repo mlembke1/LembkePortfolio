@@ -6,6 +6,8 @@ import Menu from "./Components/Menu/Menu"
 import Middle from "./Components/Middle/Middle"
 import Contact from "./Components/Contact/Contact"
 
+
+
 export class App extends React.Component {
   constructor(props) {
     super(props)

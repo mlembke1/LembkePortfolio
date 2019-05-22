@@ -1,21 +1,4 @@
 .Greeting {
-  background: linear-gradient(rgba(53, 92, 125, .8), rgba(53, 92, 125, 1)), url("../../../src/assets/greetingBackground.jpg");
-  /* height: 100%;
-  width: 100%; */
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  border-top: 10px solid #c06c84;
+  background: #475953;
   overflow-x: hidden;
-}
-
-@media(min-width: 1440px) {
-  .Greeting {
-    background: rgba(53, 92, 125);
-  }
-}
-
-@media(max-width: 768px) {
-  .Greeting {
-    background: rgba(53, 92, 125);
-  }
 }
