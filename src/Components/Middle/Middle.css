@@ -1,0 +1,12 @@
+.Middle {
+  background-color: #355c7d;
+  min-height: 750px;
+  overflow: hidden;
+  background-image: -webkit-linear-gradient(-45deg, #355c7d 50%, tan 50%);
+}
+
+.Middle-header {
+    position: relative;
+    top: 80%;
+    left: 50%;
+}

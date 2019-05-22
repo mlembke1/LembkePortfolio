@@ -1,0 +1,6 @@
+.Bottom {
+  background-color: #tan;
+  min-height: 750px;
+  overflow-x: hidden;
+  background-image: -webkit-linear-gradient(45deg, #355c7d 20%, tan 20%);
+}
