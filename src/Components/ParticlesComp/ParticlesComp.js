@@ -17,7 +17,7 @@ const particlesOptions = {
 		},
 		"move": {
 			"direction": "right",
-			"speed": 1
+			"speed": 5
 		},
 		"size": {
 			"value": 1
@@ -26,20 +26,7 @@ const particlesOptions = {
 			"anim": {
 				"enable": true,
 				"speed": 1,
-				"opacity_min": 0.05
-			}
-		}
-	},
-	"interactivity": {
-		"events": {
-			"onclick": {
-				"enable": true,
-				"mode": "repulse"
-			}
-		},
-		"modes": {
-			"push": {
-				"particles_nb": 1
+				"opacity_min": 0.01
 			}
 		}
 	},
