@@ -1,5 +1,28 @@
 .Menu {
   position: fixed;
-  right: 40px;
-  top: 50%;
+  z-index: 1000;
+  left: 95%;
+  top: 40%;
+  border-right: 1px solid whitesmoke;
+}
+
+.Menu:hover {
+  cursor: pointer;
+}
+
+.side-menu-icon {
+  color: whitesmoke;
+  padding: 10px;
+  transition: transform .5s ease-in-out;
+  border-radius: 50%;
+}
+
+.side-menu-icon:hover {
+  transform: rotate(360deg);
+}
+
+@media(max-width: 768px){
+  .Menu {
+    left: 85%;
+  }
 }

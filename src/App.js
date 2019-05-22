@@ -1,15 +1,15 @@
 import React from "react"
 import "./App.css"
 import ReactPageScroller from "react-page-scroller"
-import Top from "./Components/Top/Top"
+import Greeting from "./Components/Greeting/Greeting"
 import Menu from "./Components/Menu/Menu"
 import Middle from "./Components/Middle/Middle"
-import Bottom from "./Components/Bottom/Bottom"
+import Contact from "./Components/Contact/Contact"
 
 export class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { width: 0, height: 0 }
+    this.state = { width: 0, height: 0, topTitleVis: false }
   }
 
   componentDidMount = () => {
@@ -24,18 +24,23 @@ export class App extends React.Component {
   updateWindowDimensions = () => {
     this.setState({ width: window.innerWidth, height: window.innerHeight })
   }
-
+  
   goToPage = pageNumber => {
+    this.setState({ topTitleVis: pageNumber === 0})
     this.reactPageScroller.goToPage(pageNumber)
-  }
+  } 
+
 
   render() {
     return (
-      <ReactPageScroller ref={c => (this.reactPageScroller = c)}>
-        <Top height={this.state.height} />
-        <Middle height={this.state.height} />
-        <Bottom height={this.state.height} />
-      </ReactPageScroller>
+      <div>
+        <Menu goToPage={this.goToPage} />
+        <ReactPageScroller ref={c => (this.reactPageScroller = c)}>
+          <Greeting id="home" topTitleVis={this.state.topTitleVis}  height={this.state.height} />
+          <Middle id="about" height={this.state.height} />
+          <Contact id="contact" height={this.state.height} />
+        </ReactPageScroller>
+      </div>
     )
   }
 }
