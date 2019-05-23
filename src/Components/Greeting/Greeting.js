@@ -9,7 +9,7 @@ export class Greeting extends React.Component {
     return (
       <div style={{height: this.props.height}} className="Greeting">
         <ParticlesComp />
-        <GreetingTitle topTitleVis={this.props.topTitleVis} />
+        <GreetingTitle />
       </div>
     )
   }
