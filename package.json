@@ -9,7 +9,7 @@
     "react-page-scroller": "^1.5.1",
     "react-particles-js": "^2.6.0",
     "react-pose": "^4.0.8",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
